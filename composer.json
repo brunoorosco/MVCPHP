@@ -1,0 +1,27 @@
+{
+    "name": "bdno/mvc",
+    "require": {
+        "php": ">=5.3.0"
+    },
+    
+    "minimum-stability": "alpha",
+
+    "authors": [
+        {
+            "name": "Bruno Orosco",
+            "email": "brunoorosco@gmail.com"
+        }
+    ],
+
+
+    "autoload": {
+        "psr-0": { 
+            "bdno": "vendor",
+             "App": ""
+         }
+    },
+    "config": {
+        "bin-dir": "bin"
+    }
+
+}
